@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is auto-generated, do not edit! -jm -->
+<GapSourceDictionary>
+    <FilePath Value="www\index.html"/>
+    <FilePath Value="www\jquery-1.11.1.min.js"/>
+    <FilePath Value="www\jquery.mobile-1.4.5.min.css"/>
+    <FilePath Value="www\jquery.mobile-1.4.5.min.js"/>
+    <FilePath Value="www\master.css"/>
+    <FilePath Value="www\pagethree.html"/>
+    <FilePath Value="www\phonegap-1.1.0.js"/>
+    <FilePath Value="www\images\apple.png"/>
+</GapSourceDictionary>

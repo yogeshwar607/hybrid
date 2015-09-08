@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Video Tag</title>
+</head>
+<body>
+
+<div id="maindiv" style="height:500px;width:100%;background-color:Aqua">
+
+<video width="320" height="240" controls>
+<source src="Life is Like a Cup of Coffee.mp4" type="video/mp4"/>
+Your browser does not support the video tag
+</video>
+</div>
+<div id="result">
+</div>
+
+<script>
+    if (typeof (Storage) !== "undefined") {
+            sessionStorage.name = "Amit Gajjar";
+            document.getElementById("result").innerHTML = localStorage.name;
+    }
+    else {
+        document.getElementById("result").innerHTML = "Sorry!!! your browser does not support localstorage";
+    }
+</script>
+
+
+<input type="submit" name="btncounter" title="Counter" onclick="sum()" />
+<div id="counter">
+
+</div>
+
+
+<script>
+    function sum() {
+        if (typeof (Storage) !== "undefined") {
+            if (localStorage.count == "NaN") {
+                localStorage.count = 0;
+            }
+            localStorage.count = parseInt(localStorage.count) + 1;
+            document.getElementById("counter").innerHTML = "You Clicked the Button " + localStorage.count + " times...";
+        }
+        else {
+            document.getElementById("counter").innerHTML = "Sorry!!! your browser does not support localstorage";
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    
+    <title>PhoneGap WP7</title>
+    
+	 <script type="text/javascript">
+		  // provide our own console if it does not exist, huge dev aid!
+		  if(typeof window.console == "undefined")
+		  {
+		  window.console = {log:function(str){window.external.Notify(str);}};
+		  }
+		
+		  // output any errors to console log, created above.
+		  window.onerror=function(e)
+		  {
+			  console.log("window.onerror ::" + JSON.stringify(e));
+		  };
+		
+		  console.log("Installed console ! ");
+      </script>
+      
+     
+
+      <script type="text/javascript" src="cordova-2.5.0.js"></script>
+
+
+
+      <script type="text/javascript">
+
+          function onSuccess(position) {
+              var element = document.getElementById('geoLocationText');
+              element.innerHTML = 'Latitude: ' + position.coords.latitude +
+                                  'Longitude: ' + position.coords.longitude +
+                                  'Altitude: ' + position.coords.altitude +
+                                  'Accuracy: ' + position.coords.accuracy +
+                                  'Altitude Accuracy: ' + position.coords.altitudeAccuracy +
+                                  'Heading: ' + position.coords.heading +
+                                  'Speed: ' + position.coords.speed +
+                                  'Timestamp: ' + position.timestamp;
+
+          }
+
+              function onError(error) {
+                    var element = document.getElementById('geoLocationText');
+                    element.innerHTML ='code: ' + error.code + '\n' +
+                                        'message: ' + error.message + '\n';
+                }
+                    var watchID = navigator.geolocation.watchPosition(onSuccess, onError, { timeout: 30000 });
+
+                    navigator.geolocation.getCurrentPosition(onSuccess, onError);
+               
+      </script>
+      
+	 
+	  
+
+  </head>
+  <body>
+    <h1>Hello PhoneGap</h1>
+    <div id="geoLocationText"></div>
+  </body>
+</html>

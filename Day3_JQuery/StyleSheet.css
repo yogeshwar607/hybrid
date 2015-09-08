@@ -1,0 +1,57 @@
+﻿body {
+}
+
+#nav
+{
+    width:300px;
+    height:40px;
+    background-color:Aqua;
+    text-align:center;
+}
+
+#nav div
+{
+    width:33%;
+    height:40px;
+    float:left;
+}
+
+#nav div:hover
+{
+    background-color:Navy;
+    color:White;
+    cursor:pointer;
+}
+
+
+
+#Div1
+{
+    width:100px;
+    height:150px;
+    color:White;
+    position:absolute;
+    background-color:Navy;
+}
+
+#Div2
+{
+    width:100px;
+    height:150px;
+    margin-left:100px;
+    color:White;
+    position:absolute;
+    background-color:Navy;
+}
+
+#Div3
+{
+    width:100px;
+    height:150px;
+    margin-left:200px;
+    color:White;
+    position:absolute;
+    background-color:Navy;
+}
+
+

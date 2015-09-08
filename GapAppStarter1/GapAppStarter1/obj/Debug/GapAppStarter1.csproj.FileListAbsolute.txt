@@ -1,0 +1,14 @@
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\Bin\Debug\ApplicationIcon.png
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\Bin\Debug\Background.png
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\Bin\Debug\GapAppStarter1.dll
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\Bin\Debug\GapAppStarter1.pdb
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\Bin\Debug\AppManifest.xaml
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\Bin\Debug\GapAppStarter1.xap
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\Bin\Debug\WP7GapClassLib.dll
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\obj\Debug\ResolveAssemblyReference.cache
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\obj\Debug\App.g.i.cs
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\obj\Debug\MainPage.g.i.cs
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\obj\Debug\GapAppStarter1.g.resources
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\obj\Debug\GapAppStarter1.dll
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\obj\Debug\GapAppStarter1.pdb
+c:\users\rajesh\documents\visual studio 2010\Projects\GapAppStarter1\GapAppStarter1\obj\Debug\XapCacheFile.xml

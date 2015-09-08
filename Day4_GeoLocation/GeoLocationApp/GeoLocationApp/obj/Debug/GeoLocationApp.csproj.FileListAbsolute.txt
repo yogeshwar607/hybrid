@@ -1,0 +1,14 @@
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\Bin\Debug\ApplicationIcon.png
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\Bin\Debug\Background.png
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\Bin\Debug\GeoLocationApp.dll
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\Bin\Debug\GeoLocationApp.pdb
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\Bin\Debug\AppManifest.xaml
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\Bin\Debug\GeoLocationApp.xap
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\Bin\Debug\WP7GapClassLib.dll
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\obj\Debug\ResolveAssemblyReference.cache
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\obj\Debug\App.g.i.cs
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\obj\Debug\MainPage.g.i.cs
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\obj\Debug\GeoLocationApp.g.resources
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\obj\Debug\GeoLocationApp.dll
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\obj\Debug\GeoLocationApp.pdb
+F:\Hybrid Workspace\Day4_GeoLocation\GeoLocationApp\GeoLocationApp\obj\Debug\XapCacheFile.xml

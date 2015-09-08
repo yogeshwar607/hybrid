@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Index Page</title>
+    <link rel="Stylesheet" href="StyleSheet.css" />
+    <script>        
+        var count = Number(0);        
+        
+        var imagearray = new Array;
+        imagearray[0] = new Image;
+        imagearray[0].src = "images/doodle1.jpg";
+
+        imagearray[1] = new Image;
+        imagearray[1].src = "images/doodle2.jpg";
+
+        imagearray[2] = new Image;
+        imagearray[2].src = "images/doodle3.jpg";
+
+        imagearray[3] = new Image;
+        imagearray[3].src = "images/doodle4.jpg";
+
+        imagearray[4] = new Image;
+        imagearray[4].src = "images/doodle5.jpg";
+
+
+        var imagearr = new Array;
+        imagearr[0] = new Image;
+        imagearr[0].src = "images/one.png";
+        imagearr[1] = new Image;
+        imagearr[1].src = "images/two.png";
+        imagearr[2] = new Image;
+        imagearr[2].src = "images/three.png";
+        imagearr[3] = new Image;
+        imagearr[3].src = "images/four.png";
+        imagearr[4] = new Image;
+        imagearr[4].src = "images/ten.png";
+
+        document.img1.src = imagearr[0].src;
+        document.img2.src = imagearr[1].src;
+        document.img3.src = imagearr[2].src;
+        
+        function slideShow(imageNumber) {
+               
+               document.imageslider.src = imagearray[imageNumber].src
+
+               imageNumber += 1;
+               if (imageNumber < imagearray.length) {
+                   window.setTimeout("slideShow(" + imageNumber + ")", 3000);
+               }
+               else {
+                   imageNumber = 0;
+                   window.setTimeout("slideShow(" + imageNumber + ")", 3000);
+               }
+           }
+
+           function nextClickSlideShow() {
+
+               if (count < 2) {
+                   count += 1;
+                   document.img1.src = imagearr[count].src;
+                   document.img2.src = imagearr[count+1].src;
+                   document.img3.src = imagearr[count+2].src;
+               }
+           }
+
+           function prevClickSlideShow() {
+
+               if (count > -1) {
+                   count -= 1;
+                   document.img1.src = imagearr[count].src;
+                   document.img2.src = imagearr[count + 1].src;
+                   document.img3.src = imagearr[count + 2].src;
+               }
+           }
+
+    </script>
+
+</head>
+<body onLoad="slideShow(0)">
+
+<header id="header" >
+    <img src="images/google.png" alt="Google" />
+    <a href="Login.htm"><img id="signup" height=40px src="images/login.png" alt="Login" style="float:right;"/></a>
+    <a href="SignUp.htm"><img id="login" height=40px src="images/signup.png" alt="SignUp" style="float:right;"/></a>
+</header>
+
+<nav class="nav" >
+    <a href="#">Home</a>
+    <a href="#">about us</a>
+    <a href="#">Services</a>
+    <a href="#">Careers</a>
+    <a href="#">Contact Us</a>
+</nav>
+
+<div id="slider" style="width:100%;height:300px;text-align:center;">
+    <img id="imgslider" name="imageslider" alt="doodle" width="500px" height="300px" />
+</div>  
+
+<div id="clickSlider" style="width:80%;height:200px;">
+    <button name="prev" style="height:auto;width:4%;" onclick="prevClickSlideShow()"><</button>
+    <img name="img1" src="images/one.png" alt="doodle1" style="height:200px;width:30%;"/>
+    <img name="img2" src="images/two.png" alt="doodle1" style="height:200px;width:30%;"/>
+    <img name="img3" src="images/three.png" alt="doodle1" style="height:200px;width:30%;"/>
+    <button name="prev" style="height:auto;width:4%;" onclick="nextClickSlideShow()">></button>
+</div>
+
+<div class="clear"></div>
+<footer style="height:auto;width:100%;text-align:center;background-color:Black;color:White;margin-top:10px;">
+    copyright &copy 2014 @ Google.com
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneGapApp", "PhoneGapApp\PhoneGapApp.csproj", "{3658A515-A896-4C0F-A536-FBC5C3C24A5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3658A515-A896-4C0F-A536-FBC5C3C24A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3658A515-A896-4C0F-A536-FBC5C3C24A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3658A515-A896-4C0F-A536-FBC5C3C24A5B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3658A515-A896-4C0F-A536-FBC5C3C24A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3658A515-A896-4C0F-A536-FBC5C3C24A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3658A515-A896-4C0F-A536-FBC5C3C24A5B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

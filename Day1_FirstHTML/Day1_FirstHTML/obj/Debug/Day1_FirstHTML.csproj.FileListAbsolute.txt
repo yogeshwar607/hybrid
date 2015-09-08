@@ -1,0 +1,5 @@
+F:\Hybrid Workspace\Day1_FirstHTML\Day1_FirstHTML\bin\Day1_FirstHTML.dll
+F:\Hybrid Workspace\Day1_FirstHTML\Day1_FirstHTML\bin\Day1_FirstHTML.pdb
+F:\Hybrid Workspace\Day1_FirstHTML\Day1_FirstHTML\obj\Debug\ResolveAssemblyReference.cache
+F:\Hybrid Workspace\Day1_FirstHTML\Day1_FirstHTML\obj\Debug\Day1_FirstHTML.dll
+F:\Hybrid Workspace\Day1_FirstHTML\Day1_FirstHTML\obj\Debug\Day1_FirstHTML.pdb

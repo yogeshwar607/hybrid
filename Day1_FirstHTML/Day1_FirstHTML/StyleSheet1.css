@@ -1,0 +1,131 @@
+﻿body 
+{
+    background-color:Navy;
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+
+#maindiv
+{
+   background-color:White;
+   width:80%;
+   height:800px; 
+   margin:auto;
+}
+
+#header
+{
+    background-color:White;
+    width:100%;
+    height:90px;
+}
+
+#logo
+{
+    padding-top:10px;
+    padding-left:10px;
+    float:left;
+}
+
+#number
+{
+    padding-top:40px;
+    padding-right:5px;
+    float:right;
+}
+
+
+.menus ul
+{
+    list-style-type:none;
+    width:100%;
+    margin:auto;
+}
+
+.menus ul li
+{
+    background-color:Maroon;
+    width:25%;
+    height:40px;
+    float:left;
+    padding-top:10px;
+}
+
+.menus ul li a
+{
+    color:White;
+}
+
+.menus ul li:hover
+{
+    background-color:Gray;
+    font-size:larger;
+}
+
+.images
+{
+    width:100%;
+    height:200px;
+    float:left;
+    padding-top:10px;
+}
+
+.images img
+{
+    height:200px;
+    width:33%;
+}
+
+
+.leftpanel
+{
+    height:440px;
+    width:20%;
+    background-color:Maroon;
+    margin-top:10px;
+    float:left;
+}
+
+.leftpanel ul
+{
+    list-style-type:none;
+    text-align:left;
+}
+
+.leftpanel ul li
+{
+    background-color:#F1F1F1;
+    padding-top:10px;
+    border:1px;
+    padding:2x;
+    margin:4px;
+    cursor:pointer;
+}
+
+
+.leftpanel ul li a
+{
+    color:Black;
+}
+.leftpanel ul li h2
+{
+    color:White;
+}
+
+
+.content
+{
+    height:440px;
+    width:80%;
+    float:right;
+    background-color:Gray;
+    margin-top:10px;
+    text-align:left;
+}
+
+
+.footer
+{
+    background-color:Lime;
+}

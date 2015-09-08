@@ -1,0 +1,41 @@
+﻿body 
+{
+    text-align=center;
+}
+
+#header
+{
+     width:100%;
+     height:130px;
+     background-color:Black;
+}
+
+.nav
+{
+    width:100%;
+    height:50px;
+    background-color:Gray;
+    margin-top:10px;
+    text-align:center;
+}
+
+.nav a
+{
+    width:20%;
+    height:100%;
+    text-align:center;
+    float:left;
+}
+
+.nav a:hover
+{
+    background-color:Black;
+    color:White;
+}
+
+
+.clear
+{
+    clear:both;
+}
+

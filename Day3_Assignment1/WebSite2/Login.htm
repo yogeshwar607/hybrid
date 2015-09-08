@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login</title>
+    <link rel="Stylesheet" href="StyleSheet.css" />
+
+    <script>
+        function validate() {
+            var uname = document.getElementById("username").value;
+            var pass = document.getElementById("pass").value;
+
+            if (uname != "" || pass != "") {
+                if (uname == localStorage.uname) {
+                    if (pass == localStorage.pass) {
+                        alert("Login Successfully");
+                        document.getElementById("username").value = "";
+                        document.getElementById("pass").value = "";
+                        localStorage.session = "true";
+                        window.location = "http://localhost:14973/Day3_Assignment1/WebSite2/Index.htm";
+                    }
+                    else {
+                        alert("Password not matched");
+                    }
+                }
+                else {
+                    alert("E-mail id or password not matched");
+                }
+            }
+            else {
+                alert("Please fill all the fields");
+            }
+        }
+    </script>
+</head>
+<body>
+
+<header id="header" >
+    <a href="Index.htm"><img src="images/google.png" alt="Google" /></a>
+    <a href="SignUp.htm"><img height=40px src="images/SignUp.png" alt="SignUp" style="float:right;"/></a>
+</header>
+
+<nav class="nav" >
+    <a href="#">Home</a>
+    <a href="#">about us</a>
+    <a href="#">Services</a>
+    <a href="#">Careers</a>
+    <a href="#">Contact Us</a>
+</nav>
+
+<table>
+<tr>
+<td>User Name : </td>
+<td><input type="text" id="username" /></td>
+</tr>
+
+<tr>
+<td>Password : </td>
+<td><input type="password" id="pass"/></td>
+</tr>
+
+<tr>
+<td colspan=2><button onclick="return validate()">Login</button></td>
+</tr>
+</table>
+
+
+<footer style="height:auto;width:100%;text-align:center;background-color:Black;color:White;">
+    copyright &copy 2014 @ Google.com
+</footer>
+</body>
+</html>

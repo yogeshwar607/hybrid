@@ -1,0 +1,14 @@
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\Bin\Debug\ApplicationIcon.png
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\Bin\Debug\Background.png
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\Bin\Debug\PhoneGapApp.dll
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\Bin\Debug\PhoneGapApp.pdb
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\Bin\Debug\AppManifest.xaml
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\Bin\Debug\PhoneGapApp.xap
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\Bin\Debug\WP7GapClassLib.dll
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\obj\Debug\ResolveAssemblyReference.cache
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\obj\Debug\App.g.i.cs
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\obj\Debug\MainPage.g.i.cs
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\obj\Debug\PhoneGapApp.g.resources
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\obj\Debug\PhoneGapApp.dll
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\obj\Debug\PhoneGapApp.pdb
+c:\users\rajesh\documents\visual studio 2010\Projects\PhoneGapApp\PhoneGapApp\obj\Debug\XapCacheFile.xml

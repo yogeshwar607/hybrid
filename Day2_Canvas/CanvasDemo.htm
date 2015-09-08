@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Canvas</title>
+    <link rel="Stylesheet" href="CanvasStyle.css" />
+</head>
+<body >
+   <canvas id="canvas1" width="300" height="200" style="border:1px solid #000000;background-color:Aqua"></canvas>
+   <script>
+       var canvas = document.getElementById("canvas1");
+       var context = canvas.getContext("2d");
+       context.fillStyle = "#FFFF00";
+       context.fillRect(10, 10, 280, 180);
+   </script>
+
+   <canvas id="canvas2" width="300" height="200" style="border:1px solid #000000;background-color:Aqua"></canvas>
+   <script>
+       var canvas = document.getElementById("canvas2");
+       var context = canvas.getContext("2d");
+       context.moveTo(0, 0);
+       context.lineTo(300, 200);
+       context.stroke();
+   </script>
+
+   <canvas id="canvas3" width="300" height="200" style="border:1px solid #000000;background-color:Aqua"></canvas>
+   <script>
+       var canvas = document.getElementById("canvas3");
+       var context = canvas.getContext("2d");
+       context.beginPath();
+       context.arc(150, 100, 70, 0, 2 * Math.PI);
+       context.stroke();
+   </script>
+
+   <canvas id="canvas4" width="300" height="200" style="border:1px solid #000000;background-color:Aqua"></canvas>
+   <script>
+       var canvas = document.getElementById("canvas4");
+       var context = canvas.getContext("2d");
+
+       var gradient = context.createLinearGradient(0, 0, 200, 0);
+       gradient.addColorStop(0, "red");
+       gradient.addColorStop(0.3, "yellow");
+       gradient.addColorStop(0.7, "green");
+       gradient.addColorStop(1, "blue");
+
+       context.fillStyle = gradient;
+       context.fillRect(10,10,280,180);
+   </script>
+
+   <canvas id="canvas5" width="300" height="200" style="border:1px solid #000000;background-color:Aqua"></canvas>
+   <script>
+       var canvas = document.getElementById("canvas5");
+       var context = canvas.getContext("2d");
+
+       var grd = context.createRadialGradient(150, 100, 5, 150, 100, 70);
+       grd.addColorStop(0, "yellow");
+       grd.addColorStop(0.3, "black");
+       grd.addColorStop(0.6, "yellow");
+       grd.addColorStop(1, "black");
+
+       context.fillStyle = grd;
+       context.beginPath();
+       context.arc(150, 100, 70, 0, 2 * Math.PI);
+       context.fill();
+       context.stroke();
+   </script>
+
+   <canvas id="canvas6" width="300" height="200" style="border:1px solid #000000;background-color:Aqua"></canvas>
+   <script>
+       var canvas = document.getElementById("canvas6");
+       var context = canvas.getContext("2d");
+
+       context.font = "30px Calibri";
+       context.fillText("JavaScript",50,100);
+   </script>
+
+   <canvas id="canvas7" width="300" height="200" style="border:1px solid #000000;background-color:Aqua"></canvas>
+   <script>
+       var canvas = document.getElementById("canvas7");
+       var context = canvas.getContext("2d");
+
+       context.font = "30px Verdana";
+       context.strokeText("JavaScript", 50, 100);
+   </script>
+   
+
+</body>
+</html>

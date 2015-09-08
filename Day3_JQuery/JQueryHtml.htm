@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JQuery</title>
+    <link rel="Stylesheet" href="StyleSheet.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script>
+        $(document).ready(function () {
+            $("#Div1").hide();
+            $("#Div2").hide();
+            $("#Div3").hide();
+
+            $("#service").click(function () {
+                $("#Div1").fadeToggle("slow");
+                $("#Div2").fadeOut("fast");
+                $("#Div3").fadeOut("fast");
+            });
+
+
+
+            $("#product").click(function () {
+                $("#Div1").slideUp("fast");
+                $("#Div2").slideToggle("slow");
+                $("#Div3").slideUp("fast");
+            });
+
+
+            $("#client").click(function () {
+                $("#Div1").slideUp("fast");
+                $("#Div2").slideUp("fast");
+                $("#Div3").slideToggle("slow");
+            });
+
+        });
+        
+    </script>
+</head>
+<body>
+
+<nav id="nav" >
+
+    <div id="service">
+    Service
+    </div>
+
+    <div id="product">
+    Product
+    </div>
+
+    <div id="client">
+    Client
+    </div>
+
+</nav>
+
+
+
+    <div id="Div1">
+    Service<br/>
+    Service<br/>
+    Service<br/>
+    Service<br/>
+    Service
+    </div>
+
+    <div id="Div2">
+    Product<br/>
+    Product<br/>
+    Product<br/>
+    Product<br/>
+    Product
+    </div>
+    <div id="Div3">
+    Client<br/>
+    Client<br/>
+    Client<br/>
+    Client<br/>
+    Client
+    </div>
+
+
+
+</body>
+</html>
